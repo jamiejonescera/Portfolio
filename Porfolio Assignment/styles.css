@@ -1,0 +1,86 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: verdana, sans-serif;
+    background-image: url('bg.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+header img {
+    max-width: 1000px;
+}
+
+.justified-text {
+        text-align: justify;
+        }
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #333;
+    padding: 10px;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 5px;
+    left: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Style headings and links within sections */
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.4;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.image1 {
+
+    width: 30px;
+    height: 50px;
+    left: 10px;
+    postion: center;
+
+}
+
